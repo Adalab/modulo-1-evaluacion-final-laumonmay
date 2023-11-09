@@ -1,0 +1,66 @@
+:root {
+    font-size: 62.5%;
+}
+.section1 {
+width: 100vw;
+height: 56.8rem;
+background-image: url(/images/cover.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position:  -31.4rem;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+}
+
+/////////////* MENU */////////////
+
+.section1__a {
+    width: 4.4rem;
+    height: 4.4rem;
+    background-color: $color-4;
+    position: absolute;
+    top: -0.3rem;
+}
+.section1__aimg {
+    width: 2.4rem;
+    margin: 12px 10px 11px 10px;
+}
+///////// TÍTULO Y SUBTÍTULO //////////   
+
+.section1__h1 {
+    font-family: $font-main;
+    font-size: 4.2rem;
+    color: $color-2;
+    font-weight:bold;
+    margin-top: 131px;
+    padding-top: 161px;
+}
+.section1__h4 {
+    font-family: $font-main;
+    font-size: 1.6rem;
+    color: $color-2;
+    font-weight: lighter;
+    margin-bottom: 87px;
+    padding-bottom: 61px;
+    
+}
+
+////////// ICONO SCROLL ///////////
+
+.section1__ico {
+    width: 4.4rem;
+    height: 4.4rem;
+    background-color: $color-2;
+    border-radius: 3rem;
+    position: absolute;
+    top: 47rem;
+    left: 13.8rem;
+}
+
+.section1__iimg {
+    width: 2.4rem;
+    margin: 15px 10px 15px 10px;
+}
