@@ -1,59 +1,53 @@
-:root {
-    font-size: 62.5%;
-}
 .section2 {
 width: 100vw;
 height: 37.6rem;
 background-color: $color-2;
-
+padding: 3rem 1.5rem 4.5rem 1.5rem;
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
 gap: 1.5rem;
-padding: 3rem 1.5rem 4.5rem 1.5rem;
 
-
-    //////// TÍTULO Y SUBTÍTULO //////////
+    //////// TÍTULO, SUBTÍTULO Y TEXTO //////////
+    
     .section2__h5 {
-        font-family: $font-main;
+        font-family: $font-secundary;
+        font-weight: 400;
         font-size: 1.4rem;
         color: $color-3;
-        font-weight: lighter;
         }
-
     .section2__h2 {
         font-family: $font-main;
         font-size: 2.4rem;
         color: $color-6;
-        font-weight:bold;
-  
         }
-        .section2__p {
-            font-family: $font-main;
+    .section2__p {
+            font-family: $font-secundary;
             font-size: 1.8rem;
             color: $color-5;
             font-weight: lighter;
             text-align: justify;
-            line-height: 1.67;
+            line-height: 3rem;
         }
+     
      ////////// ICONO GO ///////////
      
-    .section2__a {
+    .section2__go {
     width: 7.6rem;
-    height: 4.4rem;
+    height: 4.5rem;
     background-color: $color-2;
     border: solid 0.2rem $color-1;
     border-radius: 15rem;
-    position: absolute;
-    bottom: -34.5rem;
-    left: 1.5rem;
-    text-decoration: none;
     text-align: center;
+    padding-top: 0.8rem;
+    margin-top: 10px;
+    }
+    .section2__a {
+    text-decoration: none;
     color: $color-1;
-    font-family: $font-main;
+    font-family: $font-secundary;
     font-size: 2rem;
     font-weight: 500;
-    padding-top: 0.5rem;
 
     
     

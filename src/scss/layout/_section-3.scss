@@ -1,0 +1,74 @@
+.section3 {
+background-color: $color-bg-3;
+width: 100vw;
+height: 62.4rem;
+padding: 3rem 1.5rem 6rem 1.5rem;
+
+
+
+display: grid;
+grid-template-columns: 18rem;
+grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+row-gap: 4.5rem;
+justify-items: center;
+.section3__text {
+    border: solid blue 2px;
+}
+
+.section3__more {
+    
+   border: solid green 2px;
+   background-color: $color-1;
+   border-radius: 15rem;
+   width: 18.4rem;
+   height: 4.5rem;
+   text-align: center;
+   padding-top: 0.5rem;
+   
+   
+ 
+}
+
+
+  //////// TÍTULO  //////////
+  
+    .section3__h2 {
+    font-family: $font-main;
+    font-size: 2.4rem;
+    color: $color-6;
+    font-weight: bold;
+    text-align: center;
+    }
+
+    .section3__h3 {
+    font-family: $font-main;
+    font-size: 1.8rem;
+    color: $color-6;
+    font-weight: bold;
+    text-align: center;
+    }
+
+    .section3__p {
+    font-family: $font-secundary;
+    font-size: 1.8rem;
+    color: $color-6;
+    font-weight: 400;
+    text-align: center;
+    line-height: 30px;
+}
+////////// ICONO MORE REASONS///////////
+
+    .section3__a {
+    text-decoration: none;
+    text-align: center;
+    color: $color-2;
+    font-family: 'Roboto Slab', serif;
+    font-size: 2rem;
+    font-weight: 500;
+    
+
+    }
+
+}
+
+
