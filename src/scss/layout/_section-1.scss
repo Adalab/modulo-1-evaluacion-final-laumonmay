@@ -1,71 +1,67 @@
 .section1 {
-width: 100vw;
-height: 56.8rem;
-padding: 0px 15px 53px 15px;
-background-image: url(/images/cover.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-background-position:  -31.4rem;
-display: flex;
-flex-direction: column;
-justify-content: flex-end;
-align-items: center;
-gap: 10px;
-
-     /////////////* MENU */////////////
-    
-    .section1__nav { 
-        position: absolute;
-        top: 0;
-        left: 0;
-        background-color: $color-4;
-        .section1__aimg {
-            margin: 16px 14px 14px 14px;
-        }
-     }
-
-     //////// TÍTULO Y SUBTÍTULO //////////
-       
-    .section1__h1 {
-        font-family: $font-main;
-        font-size: 4.2rem;
-        color: $color-2;
-        text-align: center;
-        }
-    .section1__h4 {
-        font-family: $font-secundary;
-        font-size: 1.6rem;
-        color: $color-2;
-        font-weight: 400;
-        margin: -2px 0px 33px 0px;
-        }
-    
-     ////////// ICONO SCROLL ///////////
-
-    .section1__scroll {
-        width: 4.5rem;
-        height: 4.5rem;
-        background-color: $color-2;
-        border-radius: 3rem;
-        margin-bottom: -10px;
-        padding-top: 17px;
-        text-align: center;
-        .section1__ico {
-            width: 2.4rem;
-        }
-            }
-
-        
-     
-        
-    
+    background-image: url(/images/cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+    //// movil/////
+    height: 568px;
+    padding: 0px 1.5rem 5.3rem 1.5rem;
 }
 
-
-
-
-
-
-
-
-
+////tablet////
+@media (min-width: 768px) {
+    .section1 {
+        height: 768px;
+        padding: 0rem 3.9rem 4.5rem 3.9rem;
+    }
+}
+////desktop////
+@media (min-width: 1280px) {
+    .section1 {
+        height: 768px;
+        padding: 0rem 27.5rem 1.3rem 27.5rem;   
+    }
+}
+//////// TÍTULO Y SUBTÍTULO //////////
+       
+.section1__h1 {
+    font-family: $font-main;
+    color: $color-2;
+    text-align: center;
+    ////movil////
+    font-size: 4.2rem;
+    line-height: 5.5rem;
+    }
+    ////// tablet /////
+    @media (min-width: 768px) {
+        .section1__h1 {
+            font-size: 8rem;
+            line-height: 10.6rem;
+        }
+    }
+    ////desktop////
+    @media (min-width: 1025px){
+        .section1__h1 {
+            font-size: 10rem;
+            line-height: 13.2rem;
+        }
+    }
+.section1__h4 {
+    font-family: $font-secundary;
+    color: $color-2;
+    font-weight: 400;
+    margin: 2px 0px 36px 0px;
+    ////movil/////
+    font-size: 1.6rem;
+    }
+    ////// tablet y desktop/////
+    @media (min-width: 768px) {
+        .section1__h4 {
+            font-size: 2.4rem;
+        }
+    }
