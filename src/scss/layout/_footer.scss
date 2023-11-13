@@ -11,14 +11,14 @@ height: 46.5rem;
 padding: 6rem 1.5rem 4.5rem 1.5rem;
 }
 ////tablet////
-@media (min-width: 768px) and (max-width: 1024px){
+@media (min-width: 768px) {
     .footer {
       height: 24rem;
       padding: 4.5rem 3.9rem 4.5rem 3.9rem;
     }
 }
 ////desktop////
-@media (min-width: 1280px) and (max-width: 2000px){
+@media (min-width: 1280px) {
     .footer {
         height: 24rem;
         padding: 4.5rem 23rem 4.5rem 25rem;       
@@ -35,8 +35,14 @@ padding: 6rem 1.5rem 4.5rem 1.5rem;
   border: solid red 2px;
   text-align: center;
   justify-content: center;
-
 }
+////tablet////
+@media (min-width: 768px) {
+    .container-1 {
+      order: 2;
+    }
+}
+
 .container-2 {
   height: 9rem;
   width: 20rem;
@@ -45,7 +51,12 @@ padding: 6rem 1.5rem 4.5rem 1.5rem;
   border: solid red 2px;
   text-align: center;
   justify-content: center;
-
+}
+////tablet////
+@media (min-width: 768px) {
+  .container-2 {
+    order: 3;
+  }
 }
 .container-3 {
   height: 6rem;
@@ -57,7 +68,12 @@ padding: 6rem 1.5rem 4.5rem 1.5rem;
   border: solid red 2px;
   text-align: center;
   justify-content: center;
-
+}
+////tablet////
+@media (min-width: 768px) {
+  .container-3 {
+    order: 1;
+  }
 }
 .footer__a {
   text-decoration: none;

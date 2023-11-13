@@ -31,14 +31,30 @@
   background-color: $color-2;
   border-radius: 3rem;
   position: absolute;
-  top: 154rem;
-  left: 14rem;
   padding-top: 13px;
   text-align: center;
-  .section1__ico {
+  /////movil/////
+  top: 154.4rem;
+  left: 14rem;
+}
+  ////tablet////
+@media (min-width: 768px) {
+    .scroll-up {
+        top: 147rem;
+        left: 36rem;
+    }
+}
+////desktop////
+@media (min-width: 1280px) {
+    .scroll-up {
+        top: 153.1rem;
+        left: 62rem;
+    }
+}
+    .section1__ico {
       width: 2.4rem;
   }
-      }
+    
 
 .go {
     height: 4.5rem;
@@ -51,13 +67,13 @@
     width: 7.6rem;
 }
 ////tablet////
-@media (min-width: 768px) and (max-width: 1024px){
+@media (min-width: 768px) {
     .go {
         width: 9.1rem;
     }
 }
 ////desktop////
-@media (min-width: 1280px) and (max-width: 2000px){
+@media (min-width: 1280px) {
     .go {
         width: 16rem;
     }
@@ -78,10 +94,18 @@
     height: 4.5rem;
     background-color: $color-1;
     border-radius: 15rem;
-    margin: 1rem;
     text-align: center;
+    /////movil/////
+    margin: -2rem;
+}
+////tablet////
+@media (min-width: 768px) {
+    .box-button {
+        margin: -5rem;
+    }
+}
+
    
- }
  .section3__a {
     text-decoration: none;
     color: $color-2;
