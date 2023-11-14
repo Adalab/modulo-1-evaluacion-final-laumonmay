@@ -1,11 +1,11 @@
 .section2 {
-background-color: $color-2;
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-/////movil/////
-height: 37.6rem;
-padding: 3rem 1.5rem 4.5rem 1.5rem;
+    background-color: $color-2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /////movil/////
+    height: 37.6rem;
+    padding: 3rem 1.5rem 4.5rem 1.5rem;
 }
 ////tablet////
 @media (min-width: 768px) {
@@ -24,12 +24,12 @@ padding: 3rem 1.5rem 4.5rem 1.5rem;
 //////// TÍTULO, SUBTÍTULO Y TEXTO //////////
     
 .section2__h5 {
-font-family: $font-secundary;
-font-weight: 400;
-color: $color-3;
-line-height: 3rem;
-////movil y tablet//////
-font-size: 1.4rem;
+    font-family: $font-secundary;
+    font-weight: 400;
+    color: $color-3;
+    line-height: 3rem;
+    ////movil y tablet//////
+    font-size: 1.4rem;
 }
 ////desktop////
 @media (min-width: 1280px) {
@@ -38,12 +38,12 @@ font-size: 1.4rem;
     }
 }
 .section2__h2 {
-font-family: $font-main;
-color: $color-6;
-/////movil/////
-font-size: 2.4rem;
-line-height: 3rem;
-margin-top: 1px;
+    font-family: $font-main;
+    color: $color-6;
+    /////movil/////
+    font-size: 2.4rem;
+    line-height: 3rem;
+    margin-top: 1px;
 }
 ////tablet////
 @media (min-width: 768px) {
@@ -60,12 +60,12 @@ margin-top: 1px;
     }
 }
 .section2__p {
-font-family: $font-secundary;
-color: $color-5;
-margin-top: 15px;
-line-height: 3rem;
-/////movil/////
-font-size: 1.8rem;
+    font-family: $font-secundary;
+    color: $color-5;
+    margin-top: 15px;
+    line-height: 3rem;
+    /////movil/////
+    font-size: 1.8rem;
 }
 ////tablet y desktop////
 @media (min-width: 768px) {

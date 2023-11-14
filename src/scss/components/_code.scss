@@ -1,43 +1,50 @@
-// estilos para las etiquetas <code>
-// más info sobre la etiqueta code https://developer.mozilla.org/es/docs/Web/HTML/Elemento/code
-
-.menu { 
-  position: fixed;
-  top: 0;
-  left: 0;
-  background-color: $color-4;
-  .menu__img {
-      margin: 16px 14px 14px 14px;
-  }
+.menu {
+    cursor: pointer;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: $color-4;
+    .menu__img {
+    margin: 16px 14px 14px 14px;
+    }
 }
-
-
 .scroll-below {
     width: 4.5rem;
     height: 4.5rem;
     background-color: $color-2;
     border-radius: 3rem;
-    
+    cursor: pointer;
     padding-top: 17px;
     text-align: center;
+    transition: height 0.3s;
+    &:hover {
+        height: 5.5rem;
+    }
     .section1__ico {
         width: 2.4rem;
     }
 }
-
 .scroll-up {
-  width: 4.5rem;
-  height: 4.5rem;
-  background-color: $color-2;
-  border-radius: 3rem;
-  position: absolute;
-  padding-top: 13px;
-  text-align: center;
-  /////movil/////
-  top: 154.4rem;
-  left: 14rem;
+    cursor: pointer;
+    width: 4.5rem;
+    height: 4.5rem;
+    background-color: $color-2;
+    border-radius: 3rem;
+    position: absolute;
+    padding-top: 13px;
+    text-align: center;
+    transition: height 0.3s;
+    &:hover {
+        height: 5.5rem;
+    }
+    .section1__ico {
+        width: 2.4rem;
+    }
+    /////movil/////
+    top: 154.4rem;
+    left: 14rem;
 }
-  ////tablet////
+////tablet////
 @media (min-width: 768px) {
     .scroll-up {
         top: 147rem;
@@ -51,18 +58,19 @@
         left: 62rem;
     }
 }
-    .section1__ico {
-      width: 2.4rem;
-  }
-    
-
 .go {
+    cursor: pointer;
     height: 4.5rem;
-    background-color: $color-2;
     border: solid 0.2rem $color-1;
     border-radius: 15rem;
     text-align: center;
     margin-top: 30px;
+    background-color: $color-2;
+    color: $color-1;
+    transition: background-color 0.5s;
+    &:hover {
+        background-color: $color-1;
+    }
     /////movil/////
     width: 7.6rem;
 }
@@ -78,16 +86,21 @@
         width: 16rem;
     }
 }
-
 .go__a {
+    cursor: pointer;
     text-decoration: none;
     color: $color-1;
     font-family: $font-secundary;
     font-size: 2rem;
     line-height: 45px;
     font-weight: 500;
+    transition: color 0.3s;
+    transition: font-size 0.5s;
+    &:hover {
+        color: $color-2;
+        font-size: 3rem;
+    }
 }
-
 ////////// ICONO MORE REASONS///////////
 .box-button {
     width: 18.4rem;
@@ -95,6 +108,10 @@
     background-color: $color-1;
     border-radius: 15rem;
     text-align: center;
+    transition: background-color 0.5s;
+    &:hover {
+        background-color: $color-5;
+    }
     /////movil/////
     margin: 2px;
 }
@@ -103,14 +120,15 @@
     .box-button {
         margin: -5rem;
     }
-}
-
-   
- .section3__a {
+} 
+.section3__a {
     text-decoration: none;
     color: $color-2;
     font-family: $font-secundary;
     font-size: 2rem;
     font-weight: 400;
     line-height: 4.5rem;
+    &:hover {
+        color: $color-1; 
     }
+ }

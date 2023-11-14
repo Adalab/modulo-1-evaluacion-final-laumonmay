@@ -36,21 +36,21 @@
     ////movil////
     font-size: 4.2rem;
     line-height: 5.5rem;
+}
+////// tablet /////
+@media (min-width: 768px) {
+    .section1__h1 {
+        font-size: 8rem;
+        line-height: 10.6rem;
     }
-    ////// tablet /////
-    @media (min-width: 768px) {
-        .section1__h1 {
-            font-size: 8rem;
-            line-height: 10.6rem;
-        }
+}
+////desktop////
+@media (min-width: 1025px){
+    .section1__h1 {
+        font-size: 10rem;
+        line-height: 13.2rem;
     }
-    ////desktop////
-    @media (min-width: 1025px){
-        .section1__h1 {
-            font-size: 10rem;
-            line-height: 13.2rem;
-        }
-    }
+}
 .section1__h4 {
     font-family: $font-secundary;
     color: $color-2;
@@ -59,9 +59,9 @@
     ////movil/////
     font-size: 1.6rem;
     }
-    ////// tablet y desktop/////
-    @media (min-width: 768px) {
-        .section1__h4 {
-            font-size: 2.4rem;
-        }
+////// tablet y desktop/////
+@media (min-width: 768px) {
+    .section1__h4 {
+        font-size: 2.4rem;
     }
+}
