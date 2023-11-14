@@ -24,15 +24,11 @@ padding: 6rem 1.5rem 4.5rem 1.5rem;
         padding: 4.5rem 23rem 4.5rem 25rem;       
     }
 }
-
-
-
 .container-1 {
   height: 15rem;
   width: 20rem;
   display: flex;
   flex-direction: column;
-  border: solid red 2px;
   text-align: center;
   justify-content: center;
 }
@@ -40,6 +36,7 @@ padding: 6rem 1.5rem 4.5rem 1.5rem;
 @media (min-width: 768px) {
     .container-1 {
       order: 2;
+      align-items: flex-start;
     }
 }
 
@@ -48,7 +45,6 @@ padding: 6rem 1.5rem 4.5rem 1.5rem;
   width: 20rem;
   display: flex;
   flex-direction: column;
-  border: solid red 2px;
   text-align: center;
   justify-content: center;
 }
@@ -56,6 +52,7 @@ padding: 6rem 1.5rem 4.5rem 1.5rem;
 @media (min-width: 768px) {
   .container-2 {
     order: 3;
+    align-items: flex-start;
   }
 }
 .container-3 {
@@ -63,9 +60,9 @@ padding: 6rem 1.5rem 4.5rem 1.5rem;
   width: 20rem;
   color: $color-2; 
   font-size: 1.4rem;
+  line-height: 3rem;
   display: flex;
   flex-direction: column;
-  border: solid red 2px;
   text-align: center;
   justify-content: center;
 }
@@ -73,6 +70,7 @@ padding: 6rem 1.5rem 4.5rem 1.5rem;
 @media (min-width: 768px) {
   .container-3 {
     order: 1;
+    align-items: flex-start;
   }
 }
 .footer__a {

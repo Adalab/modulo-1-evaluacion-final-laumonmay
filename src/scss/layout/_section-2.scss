@@ -40,16 +40,17 @@ font-size: 1.4rem;
 .section2__h2 {
 font-family: $font-main;
 color: $color-6;
-margin-top: 1px;
 /////movil/////
 font-size: 2.4rem;
 line-height: 3rem;
+margin-top: 1px;
 }
 ////tablet////
 @media (min-width: 768px) {
     .section2__h2 {
         font-size: 2.6rem;
         line-height: 4.5rem;
+        margin-bottom: 5px;
     }
 }
 ////desktop////
