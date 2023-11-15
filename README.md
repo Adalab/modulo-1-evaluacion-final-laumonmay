@@ -4,7 +4,7 @@
 
 Este repositorio es un ejercicio que consiste en desarrollar una página web de acuerdo a un diseño dado por Adalab.
 
-![Imagen de introducción](/public/images/web.jpg)
+![Imagen de introducción](/public/images/cover.jpg)
 
 
 ## Tecnologías utilizadas:
